@@ -1,0 +1,11 @@
+model:
+  n_estimators: 150
+  max_depth: 8
+  random_state: 42
+
+training:
+  test_size: 0.2
+  threshold: 0.5
+
+metrics:
+  minimum_f1 : 0.5
